@@ -1,0 +1,31 @@
+{
+  "name": "Node-blockchain",
+  "version": "1.0.0",
+  "description": "Private Blockchain",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --watch dev -e js Blockchain_Data_Structure/networkNode.js 3001 http://localhost:3001"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.5",
+    "cross-blob": "^3.0.0",
+    "crypto-js": "^4.1.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.16.3",
+    "file-saver": "^2.0.5",
+    "fs": "0.0.1-security",
+    "hashrate": "^0.3.1",
+    "ip": "^1.1.5",
+    "js-hashrate-parser": "0.0.6",
+    "nodemon": "^1.17.3",
+    "request": "^2.87.0",
+    "request-promise": "^4.2.2",
+    "sha256": "^0.2.0",
+    "uuid": "^3.2.1"
+  }
+}
